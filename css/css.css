@@ -1,0 +1,287 @@
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:30px;   /* Height of the footer */
+    background:silver;
+
+
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+}
+nav ul li:hover ul
+{
+    display: block;
+    position: absolute;
+
+}
+
+
+.logincls
+{
+    border-radius: 1%;
+
+    height: 50%;
+    width: 50%;
+   padding-top: 5%;
+    padding-left: 5%;
+
+    padding-bottom: 7%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 1px 2px 3px 2px silver;
+
+}
+#forgot
+{
+    color: dodgerblue;
+    font-size:large;
+    font-weight:lighter;
+    font-family: Calibri;
+    text-align:center;
+    margin-left:25% ;
+    margin-top: 5%;
+
+}
+#map {
+    width: 500px;
+    height: 400px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(37, 65, 232, 0.01);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+.errorcss
+{
+    margin-left: 20%;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+#fontstyle
+{
+    font-family: Calibri;
+    font-size:x-large;
+    font-weight: lighter;
+    line-height: 1.5;
+    text-align: center;
+
+}
+#fontstylenew
+{
+    font-family: Calibri;
+    font-size:x-large;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-top: 4%;
+    margin-left: 28%;
+
+}
+#forcontact
+{
+    font-family: Calibri;
+    font-size:x-large;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-top: 4%;
+    margin-left: 5%;
+
+}
+#line
+{
+
+    border-color: #00b0c5;
+    border-width: 2px;
+    align-self: center;
+}
+textarea
+{
+    background-color:white;
+    border:1px solid darkgrey;
+    border-radius:5px;
+    height:200px;
+    width: 400px;
+    resize: none;
+    -moz-box-shadow: 0 0 5px #ffffff;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+input[type="text"]
+{
+    background-color:white;
+    border:1px solid darkgrey;
+    border-radius:5px;
+    height:60px;
+    width: 400px;
+    -webkit-box-shadow:0 0 5px #ffffff;
+    -moz-box-shadow: 0 0 5px #ffffff;
+    background-repeat:no-repeat;
+    background-position:right;
+
+}
+input[type="password"]
+{
+    background-color:white;
+    border:1px solid darkgrey;
+    border-radius:5px;
+    height:60px;
+    width: 400px;
+    -webkit-box-shadow:0 0 5px #ffffff;
+    -moz-box-shadow: 0 0 5px #ffffff;
+    background-repeat:no-repeat;
+    background-position:right;
+    text-decoration-color:dodgerblue;
+}
+input[type="email"]
+{
+    background-color:white;
+    border:1px solid darkgrey;
+    border-radius:5px;
+    height:60px;
+    width: 400px;
+    -webkit-box-shadow:0 0 5px #ffffff;
+    -moz-box-shadow: 0 0 5px #ffffff;
+    background-repeat:no-repeat;
+    background-position:right;
+    text-decoration-color:dodgerblue;
+}
+input[type="submit"]
+{
+    background-color:#00b0c5;
+    border:1px solid white;
+    border-radius:2px;
+    height:50px;
+    width:250px;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Calibri;
+    font-size:large;
+    font-weight:bold;
+    height: 60px;
+    width: 220px;
+    margin-left: 46%;
+    margin-top: 2%;
+
+}
+input[type="submit"]:hover
+{
+    color:#00b0c5;
+
+
+    transition:0.9s;
+
+    background:transparent;
+}
+/* CSS for button */
+#register
+{
+
+    padding-top: 5%;
+    padding-bottom: 15%;
+
+
+    padding-left: 30%;
+    width: 100%;
+}
+
+button
+{
+    background-color:#00b0c5;
+    border:1px solid white;
+    border-radius:2px;
+    height:50px;
+    width:250px;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Calibri;
+    font-size:large;
+    font-weight:bold;
+    height: 60px;
+    width: 220px;
+    margin-left: 40%;
+    margin-top: 2%;
+
+
+}
+.circular {
+    width: 220px;
+    height: 220px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background:url("../images/Georgian-SGB-Sept-2014-698x377.jpg");
+    float: left;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.circularvision {
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    background:url("../images/vision.jpg") no-repeat;
+    float: left;
+
+    margin-top: 4%;
+}
+.circularsutex {
+    width: 220px;
+    height: 220px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background:url("../images/sutex.jpg");
+    float: left;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+h2
+{
+    color: #00b0c5;
+}
+abbr
+{
+    text-decoration: none;
+}
+h1
+{
+    color: #00b0c5;
+    font-family: Calibri;
+
+    font-weight: lighter;
+}
+h3
+{
+    color: #00b0c5;
+    font-family: Calibri;
+    font-size:x-large;
+    font-weight: lighter;
+}
+/* CSS for button hover */
+button:hover
+{
+
+    color:#00b0c5;
+
+
+    transition:0.9s;
+
+    background:transparent;
+
+
+}

@@ -1,0 +1,234 @@
+ /* CSS Document */
+ 
+  /* css for whole body part */
+ body{
+	 background-size: 1024px;
+ }
+ nav{
+	 width: 1024px;
+ }
+#header
+{
+	height:150px;
+}
+#im
+{
+	padding:3% 0 0 7%;
+	float:left;
+}
+#photos
+{
+	padding:20px 20px 0 20px;
+}
+#province
+ {
+	 height:27px;
+	 width: 200px;
+	 border-radius: 5px;
+	 border: 1px solid black;
+ }
+ #password
+ {
+	 height:27px;
+	 width: 200px;
+	 border-radius: 5px;
+	 border: 1px solid black;
+ }
+ #cpassword
+ {
+	 height:27px;
+	 width: 200px;
+	 border-radius: 5px;
+	 border: 1px solid black;
+ }
+ #phone
+ {
+	 height:27px;
+	 width: 200px;
+	 border-radius: 5px;
+	 border: 1px solid black;
+ }
+ #address
+ {
+	 height:27px;
+	 width: 200px;
+	 border-radius: 5px;
+	 border: 1px solid black;
+ }
+ #email
+ {
+	 height:27px;
+	 width: 200px;
+	 border-radius: 5px;
+	 border: 1px solid black;
+ }
+#uinfo
+{
+	font-family:"Courier New", Courier, monospace;
+	color:black;
+	font-weight:bold;
+	display:block;
+	font-size:2.2em;
+	text-align:center;
+	
+}
+#feedback
+{
+	margin-left:55%;
+	
+}
+#setimg
+{
+	float: left;
+	left: 0;
+
+	padding-top: 4%;
+	height:10%;
+	margin-left: 4%;
+}
+#ptag
+{	
+	font-family:"Courier New", Courier, monospace;
+	color:#000000;
+	font-size:14px;
+}
+#loginid
+{
+	padding: 5px;
+	margin-left: 80%;
+	font-weight: bold;
+	display: block;
+	height: auto;
+	width: auto;
+
+
+}
+
+
+
+ /* CSS for text box */
+input[type="text"]
+{
+	background-color:#FFFFFF;
+	border:1px solid #000033;
+	border-radius:5px;
+	height:27px;
+
+
+	
+	-webkit-box-shadow:0 0 5px #ffffff; 
+	-moz-box-shadow: 0 0 5px #ffffff;
+	background-repeat:no-repeat;
+	background-position:right;
+}
+input[type="date"]
+{
+	background-color:#FFFFFF;
+	border:1px solid #000033;
+	border-radius:5px;
+	height:30px;
+	width:170px;
+	cursor:pointer;
+	text-align:center;
+	
+	-webkit-box-shadow:0 0 5px #ffffff; 
+	-moz-box-shadow: 0 0 5px #ffffff;
+	background-repeat:no-repeat;
+	background-position:right;
+}
+ /* CSS for button */
+	
+input[type="button"]
+{
+	background-color:#666666;
+	border:1px solid #000033;
+	border-radius:5px;
+	height:30px;
+	width:100px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Courier New", Courier, monospace;
+	font-size:large;
+	font-weight:bold;
+	height: 30px;
+	width: 120px;
+	
+}
+ /* CSS for button hover */
+input[type="button"]:hover
+{
+
+	color:#000000;
+	
+	
+	transition:0.9s;
+
+	background:transparent;
+	height: 30px;
+	width: 120px;
+	
+}
+
+
+
+
+
+
+div ul li
+{
+	
+	color:#CCCCCC;
+	font-family:"Courier New", Courier, monospace;
+	list-style:none;
+	float:left;
+	
+	
+}
+#topline
+{
+	height:30px;
+	background-color: #333333;
+	width:100%;
+
+	top: 0;
+	right: 0;
+}
+ #bottomline
+ {
+	 height:30px;
+	 background-color: black;
+	 width:100%;
+
+	 bottom: 0;
+	 right: 0;
+ }
+div ul li a
+{
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:larger;
+	color:#666666;
+	background:#FFFFFF;
+	
+	padding:10px 15px 10px 15px;;
+
+	
+	
+}
+div ul li a:hover
+{
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	color:#000000;
+	transition:.5s;
+
+	background-color:#CCCCCC;
+	border-bottom:solid;
+
+
+	
+}
+
